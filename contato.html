@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <title>Clinica Saúde</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu"> <!-- aqui vai ser o menu-->
+            <ul>
+                <li><a href="./index.html">Pagina Principal</a></li>
+                <li><a href="./sobre.html" target="_self">Sobre a Clinica</a></li>
+                <li><a href="./horario.html" target="_self">Horário</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>            
+        </div>
+    
+        <div id="pagina" class="main">
+            <!--aqui vai ser header-->
+            <header class="header">
+                <div>
+                    <img src="./pexels-cottonbro-7579831.jpg" alt="Clinica" width="100%" title="Clinica Saúde">
+                </div>
+            </header>
+            
+            <!--Aqui vai ser o conteudo- Content -->
+            <div class="content">
+                <h3>Clinica Sáude</h3>
+                <p>Telefone: (71) 9 9999-9999</p>
+                <p>Rua Fernando da Costa Azul, Centro, 1042, Ed Mutiti</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124450.96415315737!2d-38.42010535!3d-12.901765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716112050422ebd%3A0xf71c84369573db9d!2sSalvador%2C%20BA!5e0!3m2!1spt-BR!2sbr!4v1663814860969!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <form name="contato" >
+                    <h1>Entre em contato</h1>
+                  
+                    <input type="text" id="nomeid" placeholder="Seu Nome" required="required" name="nome" />
+                    <label for="nome">Nome</label><br>
+                  
+                    <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+                    <label for="fone">Fone</label><br>
+                  
+                    <input type="email" id="emailid" placeholder="seu-email@mail.com" name="email" />
+                    <label for="email">Email</label><br>
+                  
+                    <textarea placeholder="Deixe sua opnião"></textarea>
+                  
+                    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" /><br>
+                    
+                </form>               
+            </div>
+
+            <!--Aqui vai ser a rodapé-->
+            <footer class="footer">
+                <div align="center">
+                    <h3>Clinica Saúde</h3>
+                    <div class="copyright">
+                        &copy; Copyright <strong><span>Clinica Sáude</span></strong>. All Rights Reserved
+                    </div>
+                    <div class="credits">
+                        Designed by <a href="https://github.com/AlanJoabio">A.J.</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <title>Clinica Saúde</title>
+    <!--Style da Tabela-->
+    <style>
+        table{
+            -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+            box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+        }
+        table{
+            border: solid 1px black;
+        }
+        table thead th{
+            background-color: black;
+            color: white;
+        }
+        table tfoot td{
+            background-color: lightgrey;
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: goldenrod;
+        }
+        table tbody tr:hover td{
+            background-color: greenyellow;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu"> <!-- aqui vai ser o menu-->
+            <ul>
+                <li><a href="./index.html">Pagina Principal</a></li>
+                <li><a href="./sobre.html" target="_self">Sobre a Clinica</a></li>
+                <li><a href="./horario.html">Horário</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>            
+        </div>
+    
+        <div id="pagina" class="main">
+            <!--aqui vai ser header-->
+            <header class="header">
+                <div>
+                    <img src="./pexels-cottonbro-7579831.jpg" alt="Clinica" width="100%" title="Clinica Saúde">
+                </div>
+            </header>
+            
+            <!--Aqui vai ser o conteudo- Content -->
+            <div class="content">
+                <h1>Clinica Saúde</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus at repudiandae voluptatem sunt tenetur saepe omnis, iste placeat, error, nobis deserunt quam. Tenetur non optio inventore molestiae blanditiis ut minima?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora sunt voluptates ipsam a obcaecati. Voluptate soluta reprehenderit tenetur, adipisci eveniet libero dolorum molestias omnis, expedita maiores, esse fugiat magnam enim.</p>
+                <hr>
+                <br>
+
+                <table width="700" align="center" >
+                    <thead cellspacing="0">
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sabado</th>
+                            <th>Domingo</th>
+                        </tr>
+                    </thead>
+                    <tbody cellspacing="1">
+                        <tr>
+                            <td>Clinica Geral</td>
+                            <td>08h - 17h</td>
+                            <td>08h - 12h</td>
+                            <td>Fechado</td>
+                        </tr>
+                        <tr>
+                            <td>Cardiologia</td>
+                            <td>08h - 17h</td>
+                            <td>08h - 12h</td>
+                            <td>Fechado</td>
+                        </tr>
+                        <tr>
+                            <td>Arritmologista</td>
+                            <td>08h - 17h</td>
+                            <td>08h - 12h</td>
+                            <td>Fechado</td>
+                        </tr>
+                        <tr>
+                            <td>Pediatria</td>
+                            <td>08h - 17h</td>
+                            <td>08h - 12h</td>
+                            <td>Fechado</td>
+                        </tr>
+                        <tr>
+                            <td>Infectologia</td>
+                            <td>08h - 17h</td>
+                            <td>08h - 12h</td>
+                            <td>Fechado</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>                
+            </div>
+
+            <!--Aqui vai ser a rodapé-->
+            <footer class="footer">
+                <div align="center">
+                    <h3>Clinica Saúde</h3>
+                    <div class="copyright">
+                        &copy; Copyright <strong><span>Clinica Sáude</span></strong>. All Rights Reserved
+                    </div>
+                    <div class="credits">
+                        Designed by <a href="https://github.com/AlanJoabio">A.J.</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
